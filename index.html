@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monisola's Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<article data-testid="test-profile-card" class="profile-wrapper">
+  <div class="profile-main">
+    <figure>
+      <img src="./images/avatar.jpeg" alt="my profile picture" data-testid="test-user-avatar"/>
+    </figure>
+    <div class="profile-info">
+      <header>
+        <h2 data-testid="test-user-name">Oyewole Monisola</h2>
+      </header>
+      <p data-testid="test-user-bio">
+        I’m Monisola, a Full-Stack Developer with a focus on creating reliable, intuitive, and scalable web applications.
+      </p>
+      <p>
+        Current time (in milliseconds):
+        <span data-testid="test-user-time"></span>
+      </p>
+      <nav aria-label="Social Links">
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li><a href="https://x.com/monisola__o?s=21&t=Zl1bxRnB775w7c37SeApXg" target="_blank" data-testid="test-user-social-twitter">Twitter</a></li>
+          <li><a href="http://linkedin.com/in/monisola" target="_blank" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+          <li><a href="https://github.com/Monisola102" target="_blank" data-testid="test-user-social-github">Github</a></li>
+        </ul>
+      </nav>
+      <div class="profile-sections">
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Dancing</li>
+            <li>Reading</li>
+            <li>Coding</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Gossip</li>
+            <li>Cheating</li>
+            <li>Laziness</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</article>
+    <script src="script.js"></script>
+  </body>
+</html>
