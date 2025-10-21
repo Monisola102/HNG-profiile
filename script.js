@@ -1,3 +1,11 @@
+const time = document.querySelector('[data-testid="test-user-time"]');
+function updateTime() {
+  time.textContent = Date.now();
+}
+updateTime();
+
+setInterval(updateTime, 1000);
+
 const form = document.querySelector('[data-testid="test-contact-form"]');
 const nameInput = document.querySelector('[data-testid="test-contact-name"]');
 const emailInput = document.querySelector('[data-testid="test-contact-email"]');
